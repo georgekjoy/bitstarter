@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 var fs= require('fs');
 var out;
-out = fs.readFileSync('/home/ubuntu/bitstarter/index.html','utf8');
+out = fs.readFileSync('./index.html','utf8');
 var express = require('express');
 //buf = new Buffer(30);
 //len = buf.write(out);
